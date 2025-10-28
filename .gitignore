@@ -1,0 +1,10 @@
+# Логи
+*.log
+logs/
+*.retry
+
+# IDE файлы
+.vscode/
+.idea/
+*.swp
+*.swo
