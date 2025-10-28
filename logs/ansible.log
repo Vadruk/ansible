@@ -1,0 +1,30 @@
+2025-10-28 15:33:20,236 p=24420 u=kri n=ansible | {
+    "_meta": {
+        "hostvars": {
+            "ansible": {
+                "ansible_host": "192.168.122.138"
+            }
+        }
+    },
+    "all": {
+        "children": [
+            "ungrouped",
+            "test"
+        ]
+    },
+    "test": {
+        "hosts": [
+            "ansible"
+        ]
+    }
+}
+2025-10-28 15:34:51,732 p=25073 u=kri n=ansible | PLAY [Ansible Ad-Hoc] **********************************************************
+2025-10-28 15:34:51,764 p=25073 u=kri n=ansible | TASK [ping] ********************************************************************
+2025-10-28 15:34:52,524 p=25073 u=kri n=ansible | ok: [ansible]
+2025-10-28 15:34:52,526 p=25073 u=kri n=ansible | PLAY RECAP *********************************************************************
+2025-10-28 15:34:52,526 p=25073 u=kri n=ansible | ansible                    : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-10-28 15:36:31,451 p=25902 u=kri n=ansible | PLAY [Ansible Ad-Hoc] **********************************************************
+2025-10-28 15:36:31,482 p=25902 u=kri n=ansible | TASK [ping] ********************************************************************
+2025-10-28 15:36:32,263 p=25902 u=kri n=ansible | ok: [ansible]
+2025-10-28 15:36:32,265 p=25902 u=kri n=ansible | PLAY RECAP *********************************************************************
+2025-10-28 15:36:32,266 p=25902 u=kri n=ansible | ansible                    : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
